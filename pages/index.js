@@ -1,6 +1,12 @@
 import Head from 'next/head'
+import ItemBar from '../components/ItemBar'
 import Layout, { siteTitle } from '../components/layout'
+import Navbar from '../components/Navbar'
+import Title from '../components/Title'
 import utilStyles from '../styles/utils.module.css'
+import Link from 'next/link'
+import Button from '../components/Button'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
@@ -9,11 +15,13 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+      <Header/>
+      <Title text={"Sei positivo?"} />
+          <ItemBar>
+            <Button path={'/si'} text={'si'} />
+            <Button path={'/no'} text={'no'} />
+            <Button path={'/no'} text={'non lo so'} />
+          </ItemBar>
       </section>
     </Layout>
   )
