@@ -2,12 +2,7 @@ export default function Footer(){
     return (
         <footer>
       
-      <div className="flex justify-center -mt-12">
-        <p className="text-base text-gray-400">
-          Made by Daniel Montalbano
-        </p>
-        
-      </div>
+      
       <div className="flex justify-center mt-4 lg:mt-2">
             
             <a className="ml-3">

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Header(){
     return (
         <section className="text-white body-font bg-[url('https://www.ischiafacile.it/wp-content/uploads/2020/05/covid-19-1.jpg')]">
@@ -10,9 +11,10 @@ export default function Header(){
       <br></br>
       <p className="text-green0">Sei nel posto giusto! rispondi a poche e semplici domande per sapere subito come devi comportarti!</p>
     </div>
-    
-    <button className="flex mx-auto mt-16 bg-green0 hover:bg-green1 text-white font-bold py-2 px-4 border border-green0 rounded">Rispondi subito alle domande</button>
-  </div>
+    <Link href="/questions">
+      <button className="flex mx-auto mt-16 bg-green0 hover:bg-green1 text-white font-bold py-2 px-4 border border-green0 rounded-full">Scoprilo subito!</button>
+    </Link>
+    </div>
 </section>
     );
 }

@@ -7,6 +7,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Button from '../components/Button'
 import Header from '../components/Header'
+import AboutMe from '../components/AboutMe'
 
 export default function Home() {
   return (
@@ -16,12 +17,7 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
       <Header/>
-      <Title text={"Sei positivo?"} />
-          <ItemBar>
-            <Button path={'/si'} text={'si'} />
-            <Button path={'/no'} text={'no'} />
-            <Button path={'/no'} text={'non lo so'} />
-          </ItemBar>
+      <AboutMe />
       </section>
     </Layout>
   )
