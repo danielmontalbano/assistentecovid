@@ -8,7 +8,7 @@ import Footer from './Footer'
 import Header from './Header'
 
 const name = '[Your Name]'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Assistente Covid'
 
 export default function Layout({ children, home }) {
   return (
