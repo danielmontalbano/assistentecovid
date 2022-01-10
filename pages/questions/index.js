@@ -34,7 +34,7 @@ import { useRouter } from 'next/router'
             options:[
                 {
                     text: 'si',
-                    href: '/sintomi'
+                    href: '/final/sintomi'
                 },
                 {
                     text: 'no',
@@ -84,15 +84,15 @@ import { useRouter } from 'next/router'
             options:[
                 {
                     text: 'Meno di 120 giorni',
-                    href:'/terza'
+                    href:'/final/terza'
                 },
                 {
                     text: 'Più di 120 giorni',
-                    href: '/cento'
+                    href: '/final/cento'
                 },
                 {
                     text: 'Meno di 14 giorni',
-                    href: '/no'
+                    href: '/final/no'
                 }
             ]
         },
@@ -102,15 +102,15 @@ import { useRouter } from 'next/router'
             options:[
                 {
                     text: 'si',
-                    href:'/terzanosintomi'
+                    href:'/final/terzanosintomi'
                 },
                 {
                     text: 'No ma ho la seconda da 120 giorni o meno',
-                    nextText: '/terzanosintomi'
+                    nextText: '/final/terzanosintomi'
                 },
                 {
                     text: 'no',
-                    href: '/nosintomi'
+                    href: '/final/nosintomi'
                 }
             ]
         },
