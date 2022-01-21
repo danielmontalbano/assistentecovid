@@ -1,15 +1,19 @@
+import Head from 'next/head'
 import Link from 'next/link'
+import FinalLayout from '../../../components/FinalLayout'
+import Layout from '../../../components/layout'
 
 export default function Home() {
   return (
-    <>
-    
-        <p>Isolati per almeno 10 giorni dal tampone positivo e fai un tampone se sono passati almeno tre giorni dall&apos;ultimo sintomo</p>
-        <p>Dopo 21 giorni dal primo tampone puoi uscire</p>
-        <Link href="/">
-            <a>Torna a casa</a>
-          </Link>
-          
-    </>
+    <Layout home>
+      <Head>
+        <title>{'Assistente covid'}</title>
+      </Head>
+      <section className={utilStyles.headingMd }>
+        <FinalLayout text={'Terza'}>
+          <p>Puoi uscire di casa ma per 10 giorni devi indossare la mascherina di tipo FFP2.<br></br> Fai il tampone nel caso in cui ti sentissi male!</p>
+        </FinalLayout>
+      </section>
+    </Layout>
   )
 }

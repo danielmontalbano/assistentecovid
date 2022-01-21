@@ -12,7 +12,7 @@ export default function Header(){
       <p className="text-green0">Sei nel posto giusto! rispondi a poche e semplici domande per sapere subito come devi comportarti!</p>
     </div>
     <Link href="/questions">
-      <button className="flex mx-auto mt-16 bg-green0 hover:bg-green1 text-white font-bold py-2 px-4 border border-green0 rounded-full">Scoprilo subito!</button>
+      <button className="flex mx-auto mt-16 bg-green0 hover:bg-green1 text-black font-bold py-2 px-4 border border-green0 rounded-full">Scoprilo subito!</button>
     </Link>
     </div>
 </section>
