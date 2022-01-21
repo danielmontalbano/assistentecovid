@@ -13,8 +13,8 @@ export default function Home() {
         <title>{'Assistente covid'}</title>
       </Head>
       <section className={utilStyles.headingMd }>
-        <FinalLayout text={'Terza'}>
-          <p>Puoi uscire di casa ma per 10 giorni devi indossare la mascherina di tipo FFP2.<br></br> Fai il tampone nel caso in cui ti sentissi male!</p>
+        <FinalLayout text={'Tranquillo'}>
+          <p>Stai tranquillo, non sei a rischio!</p>
         </FinalLayout> 
       </section>
     </Layout>

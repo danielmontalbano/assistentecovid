@@ -14,7 +14,21 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd }>
         <FinalLayout text={'Terza'}>
-          <p>Puoi uscire di casa ma per 10 giorni devi indossare la mascherina di tipo FFP2.<br></br> Fai il tampone nel caso in cui ti sentissi male!</p>
+          <p>
+          Sei asintomatico e:
+hai fatto la terza dose di vaccino
+Oppure
+sei guarito da meno di 120 giorni
+Oppure
+.hai completato il ciclo primario da meno di 120 giorni
+Non devi sottoporti a quarantena ma ad autosorveglianza
+per 5 giorni dall'ultimo contatto con il caso e indossare
+mascherine ffp2 per almeno 10 giorni.
+Se sei asintomatico non devi sospendere lattività
+lavorativa.
+In caso di sintomi, rivolgiti al medico di base/pediatra
+di libera scelta.
+          </p>
         </FinalLayout>
       </section>
     </Layout>

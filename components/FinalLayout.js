@@ -25,10 +25,12 @@ export default function FinalLayout({ children,text }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <main >
-        <div className='flex-grow '>
-            <div className="bg-green0 text-center m-3 rounded-lg">
+        <div className='flex '>
+            <div className="bg-green0 text-center mt-3 sm:m-2 md:m-2 lg:m-auto p-3 rounded-lg sm:w-full md:w-full lg:w-3/4 ">
                 <Title text={text}/>
+                <div className="w-1/2 m-auto">
                 {children}
+                </div>
             </div>
         </div>
         </main>

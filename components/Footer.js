@@ -1,6 +1,6 @@
 export default function Footer(){
     return (
-        <footer style={{ position: "absolute", bottom: 0, width:"100%" }}>
+        <footer className=" inset-x-0 bottom-0 p-4">
       
       
       <div className="flex justify-center mb-4 lg:mt-2">

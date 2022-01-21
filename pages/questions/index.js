@@ -20,11 +20,15 @@ import { useRouter } from 'next/router'
             options : [
                 {
                     text : 'si',
-                    nextText : 1
+                    nextText : 5
                 },
                 {
                     text : 'no',
                     nextText : 2
+                },
+                {
+                    text : 'non lo so, ho dei sintomi',
+                    href : '/final/sintomi1'
                 }
             ]
         },
@@ -102,11 +106,11 @@ import { useRouter } from 'next/router'
             options:[
                 {
                     text: 'si',
-                    href:'/final/terzanosintomi'
+                    href:'/final/trenosintomi'
                 },
                 {
                     text: 'No ma ho la seconda da 120 giorni o meno',
-                    nextText: '/final/terzanosintomi'
+                    href: '/final/trenosintomi'
                 },
                 {
                     text: 'no',

@@ -14,8 +14,26 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd }>
         <FinalLayout text={'Terza'}>
-          <p>Puoi uscire di casa ma per 10 giorni devi indossare la mascherina di tipo FFP2.<br></br> Fai il tampone nel caso in cui ti sentissi male!</p>
-        </FinalLayout>
+          <p>
+          Hai fatto la terza dose di vaccino o hai completato
+il ciclo primario da meno di 120 giorni?
+<br></br>
+L'isolamento è di 7 giorni dal tampone positivo, di cui
+gli ultimi 5 senza sintomi.
+<br></br>
+Al termine, tampone (molecolare o antigenico):
+<br></br>
+presso il medico di base, o il pediatra di libera scelta
+<br></br>
+i punti tampone delle ASST/punti tampone massivi
+privati accreditati (presentando il provvedimento
+di isolamento rilasciato da ATS, prenotazione da parte
+di ATS o del medico, ricetta del medico)
+<br></br>
+le farmacie (presentando il provvedimento di
+isolamento rilasciato da ATS o la ricetta del medico)
+          </p>
+           </FinalLayout>
       </section>
     </Layout>
   )

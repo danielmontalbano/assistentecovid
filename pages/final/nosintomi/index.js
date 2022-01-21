@@ -14,7 +14,22 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd }>
         <FinalLayout text={'Terza'}>
-          <p>Puoi uscire di casa ma per 10 giorni devi indossare la mascherina di tipo FFP2.<br></br> Fai il tampone nel caso in cui ti sentissi male!</p>
+          <p>
+          Non hai fatto il vaccino?
+Non hai completato il ciclo primario
+o lo hai completato da più di 120 giorni?
+Lisolamento è di 10 giorni dal tampone positivo,
+di cui gli ultimi 3 senza sintomi.
+Al termine, tampone (molecolare o antigenico):
+presso il medico di base, o il pediatra di libera scelta
+.i punti tampone delle ASST/punti tampone massivi
+privati accreditati (presentando il provvedimento
+di isolamento rilasciato da ATS, prenotazione da parte
+di ATS o del medico, ricetta del medico)
+le farmacie (presentando il provvedimento di isolamento
+rilasciato da ATS o la ricetta del medico)
+Per rientrare a lavoro è necessario un tampone negativo.
+          </p>
         </FinalLayout>
       </section>
     </Layout>
