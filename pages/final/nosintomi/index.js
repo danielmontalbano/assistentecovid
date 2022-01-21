@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../components/layout'
 import Title from '../../../components/Title'
+import FinalLayout from '../../../components/FinalLayout'
 
 import utilStyles from '../../../styles/utils.module.css'
 
