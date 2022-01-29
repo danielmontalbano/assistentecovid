@@ -7,7 +7,7 @@ export default function Footer(){
             
             <a className="ml-3">
             <svg
-              class="w-6 h-6 text-gray-400 text-blue-400 fill-current"
+              className="w-6 h-6 text-gray-400 text-blue-400 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512">
               <path

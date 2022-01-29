@@ -3,7 +3,6 @@ import Footer from "./Footer"
 import Navbar from "./Navbar"
 import Title from "./Title"
 
-const name = '[Your Name]'
 export const siteTitle = 'Assistente Covid'
 
 export default function FinalLayout({ children,text }) {

@@ -8,6 +8,7 @@ import Link from 'next/link'
 import Button from '../components/Button'
 import Header from '../components/Header'
 import AboutMe from '../components/AboutMe'
+import Dati from '../components/Dati'
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-      <Header/>
-      <AboutMe />
+        <Header/>
+        <Dati />
+        <AboutMe />
       </section>
     </Layout>
   )
