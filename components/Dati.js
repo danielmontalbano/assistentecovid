@@ -96,7 +96,7 @@ export default function Dati() {
                 array.forEach(element => {
                     arrayFinal.push(element.nuovi_positivi)
                     arrayTerapia.push(element.ingressi_terapia_intensiva)
-                    arrayLabel.push(element.data)
+                    arrayLabel.push(element.data.split('T')[0])
                 });
                 
                 setTerapia(arrayTerapia)
