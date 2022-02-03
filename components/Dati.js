@@ -47,13 +47,13 @@ export default function Dati() {
             borderJoinStyle: 'miter',
             pointBorderColor: 'rgba(75,192,192,1)',
             pointBackgroundColor: '#fff',
-            pointBorderWidth: 1,
+            pointBorderWidth: 0.1,
             pointHoverRadius: 5,
             pointHoverBackgroundColor: 'rgba(75,192,192,1)',
             pointHoverBorderColor: 'rgba(220,220,220,1)',
             pointHoverBorderWidth: 2,
             pointRadius: 1,
-            pointHitRadius: 10,
+            pointHitRadius: 1,
             data: dataSet
           }
         ]
@@ -133,14 +133,14 @@ export default function Dati() {
         }
     },[value]);
 
-  return <div>
+  return <div className='h-[650px]'>
       <div className="container mx-auto  flex-col items-center">
             <div className="text-center m-2">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-green1">Dati covid</h1>
             </div>
             <div className='mx-auto text-center' >
                 <select
-                    className='bg-green0 p-2 border-2 border-green1 rounded-full px-5'
+                    className='bg-green0 p-2 border-2 border-green1 rounded-full px-2'
                     value={value}
                     onChange={(e) => {
                     setValue(e.target.value);
@@ -153,13 +153,38 @@ export default function Dati() {
                 </div>
         </div>
         
-        <Line
-        data={dataChart}
+        <div className='md:hidden '>
+            <div className=' grid grid-cols-1'>
+                <div className='max-h-[300px]'>
+                    <Line
+                    data={dataChart}
+                    
+                    />
+                </div>
+                <div className='max-h-[300px]'>
+                    <Line
+                    data={terapiaChart}
+                    
+                    />
+                </div>
+            </div>
+        </div>
+        <div className='hidden md:inline '>
+            <div className=' grid grid-cols-2 '>
+                <div className='max-h-[300px] '>
+                    <Line
+                    data={dataChart}
+                    
+                    />
+                </div>
+                <div className='max-h-[300px]'>
+                    <Line
+                    data={terapiaChart}
+                    
+                    />
+                </div>
+            </div>
+        </div>
         
-        />
-        <Line
-        data={terapiaChart}
-        
-        />
   </div>;
 }

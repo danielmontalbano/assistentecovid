@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd }>
         <FinalLayout text={'Terza'}>
-          <p>
+          <p className='text-bold'>
           Hai fatto la terza dose di vaccino o hai completato
-il ciclo primario da meno di 120 giorni?
+il ciclo primario da meno di 120 giorni?</p><p>
 <br></br>
 L'isolamento è di 7 giorni dal tampone positivo, di cui
 gli ultimi 5 senza sintomi.
