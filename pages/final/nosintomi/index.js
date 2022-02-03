@@ -13,11 +13,9 @@ export default function Home() {
         <title>{'Assistente covid'}</title>
       </Head>
       <section className={utilStyles.headingMd }>
-        <FinalLayout text={'Terza'}>
+        <FinalLayout text={'Non hai fatto il vaccino? Non hai completato il ciclo primario o lo hai completato da più di 120 giorni?'}>
           <p>
-          Non hai fatto il vaccino?
-Non hai completato il ciclo primario
-o lo hai completato da più di 120 giorni?
+          
 Lisolamento è di 10 giorni dal tampone positivo,
 di cui gli ultimi 3 senza sintomi.
 Al termine, tampone (molecolare o antigenico):

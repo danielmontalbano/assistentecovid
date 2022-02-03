@@ -13,9 +13,8 @@ export default function Home() {
         <title>{'Assistente covid'}</title>
       </Head>
       <section className={utilStyles.headingMd }>
-        <FinalLayout text={'Sintomatico'}>
-          <p>Sei asintomatico e hai completato il ciclo
-vaccinale primario da più di 120 giorni?
+        <FinalLayout text={'Sei asintomatico e hai completato il ciclo vaccinale primario da più di 120 giorni?'}>
+          <p>
 Quarantena obbligatoria di 5 giorni, al termine tampone
 (molecolare o antigenico)
 presso il medico di base, o il pediatra di libera scelta

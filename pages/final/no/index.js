@@ -13,10 +13,8 @@ export default function Home() {
         <title>{'Assistente covid'}</title>
       </Head>
       <section className={utilStyles.headingMd }>
-        <FinalLayout text={'Terza'}>
+        <FinalLayout text={'Non hai fatto il vaccino oppure non hai completato il ciclo vaccinale da più di 14 giorni?'}>
           <p>
-          Non hai fatto il vaccino oppure
-non hai completato il ciclo vaccinale da più di 14 giorni?
 Quarantena di 10 giorni, al termine tampone (molecolare
 o antigenico)
 I medico di base, o il pediatra di libera scelta

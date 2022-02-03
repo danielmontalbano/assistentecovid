@@ -13,14 +13,10 @@ export default function Home() {
         <title>{'Assistente covid'}</title>
       </Head>
       <section className={utilStyles.headingMd }>
-        <FinalLayout text={'Terza'}>
+        <FinalLayout text={'Sei asintomatico?'}>
           <p>
-          Sei asintomatico e:
-hai fatto la terza dose di vaccino
-Oppure
-sei guarito da meno di 120 giorni
-Oppure
-.hai completato il ciclo primario da meno di 120 giorni
+hai fatto la terza dose di vaccino o sei guarito da meno di 120 giorni oppure hai completato il ciclo primario da meno di 120 giorni?
+<br></br>
 Non devi sottoporti a quarantena ma ad autosorveglianza
 per 5 giorni dall'ultimo contatto con il caso e indossare
 mascherine ffp2 per almeno 10 giorni.
